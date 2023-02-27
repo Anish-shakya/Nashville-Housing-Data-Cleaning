@@ -2,7 +2,7 @@
 /* 
 
 Cleaning Data in SQL Queries
-
+Skills used: Joins, CTE's,  Aggregate Functions, Basic Data Manipulation UPDATE,DELETE, String Formating, CASE
 */
 
 SELECT * FROM Project.dbo.NashvilleHousing
@@ -150,11 +150,11 @@ SELECT *,
 	ROW_NUMBER() OVER (
 	
 	PARTITION BY  ParcelID,
-				PropertyAddress,
-				SalePrice,
-				SaleDate,
-				LegalReference
-				ORDER BY UniqueId
+		PropertyAddress,
+		SalePrice,
+		SaleDate,
+		LegalReference
+		ORDER BY UniqueId
 	) Row_Num
 FROM NashvilleHousing
 )
