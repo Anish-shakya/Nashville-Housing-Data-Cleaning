@@ -1,5 +1,5 @@
 # Nashville-Housing-Data-Cleaning
-Cleaning Raw Dataset of Nashville Housing into a More Understandable Format. Made some changes to the Sales_Date format, Seperated the Adress into  specify columns and Removed Duplicates
+Cleaning Raw Dataset of Nashville Housing into a More Understandable Format. Made some changes to the Sales_Date format, Seperated the Address into  specify columns and Removed Duplicates
   
 To clean the raw dataset of Nashville housing and make it more understandable, the following steps can are taken.
 
